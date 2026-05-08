@@ -1,0 +1,36 @@
+# --- KiCad 9.0 Gitignore ---
+
+# Temporary/Lock files
+*.lck
+#auto_saved_files#
+
+# Backups
+*-backups/
+*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sh-bak
+
+# Local User Settings
+*.kicad_prl
+fp-info-cache
+*.pyc
+
+# Manufacturing Outputs
+[Gg]erber/
+[Gg]erbers/
+*.gbr
+*.drl
+*.gbrjob
+*.pos
+*.d356
+*.csv
+
+# Documentation/Plots
+*.pdf
+*.svg
+*.png
+*.jpg
+*.jpeg
+
+# --- End of .gitignore ---
